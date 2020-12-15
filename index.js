@@ -21,7 +21,7 @@ class Triangle extends Polygon{
     return ( (arr1+arr2>arr3) &&(arr1+arr3>arr2) &&(arr2+arr3>arr1))
     }
   }
-class Square extends Polygon(){
+class Square extends Polygon{
   get isValid(){
     let arr1=this.arr[0]
     let arr2=this.arr[1]
