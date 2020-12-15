@@ -29,7 +29,7 @@ class Square extends Polygon(){
     let arr4=this.arr[3]
     retun (arr1=arr2=arr3=arr4)
   }
-//   get area(){
-//     return this.arr[0]*this.arr[1]
-//   }
+  get area(){
+    return this.arr[0]*this.arr[1]
+  }
 }
