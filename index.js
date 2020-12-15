@@ -14,5 +14,7 @@ get perimeter(){
 }
 }
 class Triangle extends Polygon{
-  
+  get isValid(){
+    
+  }
 }
