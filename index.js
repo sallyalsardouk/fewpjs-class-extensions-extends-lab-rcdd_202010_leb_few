@@ -21,11 +21,8 @@ class Triangle extends Polygon{
   }
 class Square extends Polygon{
   get isValid(){
-    let arr1=this.arr[0]
-    let arr2=this.arr[1]
-    let arr3=this.arr[2]
-    let arr4=this.arr[3]
-    retun (arr1=arr2=arr3=arr4)
+    
+    retun (this.arr[0]=this.arr[1]=this.arr[2]=this.arr[3])
   }
   get area(){
     return this.arr[0]*this.arr[1]
