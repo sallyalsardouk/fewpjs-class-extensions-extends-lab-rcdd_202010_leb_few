@@ -15,8 +15,9 @@ get perimeter(){
 }
 class Triangle extends Polygon{
   get isValid(){
-    for(let i=0;i<arr.lenght;i++){
-      
+    let arr1=this.arr[0]
+    let arr2=this.arr[1]
+    let arr3=this.arr[2]
     }
   }
 }
