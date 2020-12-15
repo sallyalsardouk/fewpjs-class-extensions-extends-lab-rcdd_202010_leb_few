@@ -14,5 +14,5 @@ get perimeter(){
 }
 }
 class Triangle extends Polygon{
-  this.arr=arr
+  
 }
