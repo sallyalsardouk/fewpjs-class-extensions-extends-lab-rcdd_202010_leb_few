@@ -7,7 +7,7 @@ class Polygon{
 }
 get perimeter(){
   let sum=0
-  for (count in this.arr)
+  for (let count of this.arr)
     sum+=count
 
   return sum
