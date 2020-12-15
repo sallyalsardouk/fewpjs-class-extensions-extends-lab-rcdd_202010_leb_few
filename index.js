@@ -18,6 +18,7 @@ class Triangle extends Polygon{
     let arr1=this.arr[0]
     let arr2=this.arr[1]
     let arr3=this.arr[2]
+    return (arr1+arr2>arr3)
     }
   }
 }
